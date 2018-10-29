@@ -8,7 +8,44 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    vertical-align: middle;
 }
 body {
     background-color: #495057;
+}
+.rounded-circle {
+    border-radius: 50%! important;
+}
+.img-fluid {
+    height:auto;
+}
+/* #sideNav .navbar-brand */
+.img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: .5rem solid
+    rgba(255,255,255,.2);
+}
+.mb-2 {
+    margin-bottom: .5rem!important;
+}
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+}
+.navbar-brand {
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.d-lg-block{
+
+}
+.mx-auto {
+    margin-left: auto!important;
+}
+.max-auto {
+    margin-right: auto!important;
+}
+* {
+    box-sizing: border-box;
 }
